@@ -10,3 +10,5 @@ while num != guess:
         print("Your guess is too low!")
     else:
         print("Your guess is too high!")
+    # Prompt the user to guess again
+    guess = int(input("Guess again: "))
