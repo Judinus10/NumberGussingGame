@@ -1,14 +1,14 @@
 # Number Guessing Game 🎲
 
 ## Overview
-This repository contains a simple Python script for a Number Guessing Game. The program generates a random number between 1 and 100, and the user is prompted to guess the number. The game provides feedback to help the user guess the number correctly.
+This repository contains a Python script for a Number Guessing Game. The script generates a random number between 1 and 100, and the user has up to three attempts to guess the number. The game provides feedback to help the user guess the number correctly and informs the user of the correct number if they run out of guesses.
 
 ## How It Works
 1. The script uses Python's `random` module to generate a random number between 1 and 100.
-2. The user is asked to guess the number through the command line.
+2. The user is given up to three chances to guess the number.
 3. After each guess, the script will indicate whether the guess is too low or too high.
-4. The loop continues until the user guesses the correct number.
-5. Once the correct number is guessed, the game ends with a congratulatory message.
+4. The game ends either when the user guesses the correct number or exhausts all three attempts.
+5. If the user does not guess the number within three attempts, the correct number is revealed.
 
 ## How to Run the Game
 1. **Clone the Repository:**
@@ -30,19 +30,34 @@ This repository contains a simple Python script for a Number Guessing Game. The 
 ```
 Guess a number between 1 to 100: 50
 Your guess is too low!
-Guess again: 75
+You have 2 chances left. Guess again: 75
 Your guess is too high!
-Guess again: 60
+You have 1 chances left. Guess again: 60
 Congrats!!! 
 You guessed it right!
 ```
 
 ## Requirements
 - Python 3.x
+
+## Contributing
+Feel free to fork this repository, make improvements, and create a pull request. Contributions are always welcome!
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+- This project is inspired by basic Python exercises often found in beginner programming courses.
 ```
 
-### Key Adjustments:
-1. **Clone Command Formatting**: I closed the code block that starts with `git clone ...` to ensure proper formatting in the `README.md`.
-2. **Example Output Section**: The example output should be in its own section to make it clear that it's sample output from running the script.
+### Breakdown:
+- **Overview:** Describes what the game does and how many attempts the user has.
+- **How It Works:** Details the script’s functionality and game flow.
+- **How to Run the Game:** Provides steps to clone the repo, navigate to it, and run the script.
+- **Example Output:** Shows sample interactions and responses from the game.
+- **Requirements:** Specifies the necessary Python version.
+- **Contributing:** Invites others to contribute to the project.
+- **License:** Mentions the license type.
+- **Acknowledgments:** Credits the inspiration for the project.
 
-Other than these small tweaks, everything else is correct and ready for your `README.md`!
+You can use this `README.md` to clearly communicate the purpose, usage, and details of your Number Guessing Game script.
