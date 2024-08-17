@@ -10,5 +10,7 @@ while num != guess:
         print("Your guess is too low!")
     else:
         print("Your guess is too high!")
-    # Prompt the user to guess again
-    guess = int(input("Guess again: "))
+
+    guess = int(input("Guess again: "))# Prompt the user to guess again
+
+print("Congrats!!! \nYou guessed it right!")# Congratulate the user when they guess correctly
